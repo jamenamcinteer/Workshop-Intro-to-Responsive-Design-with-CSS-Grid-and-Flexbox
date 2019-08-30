@@ -1,0 +1,54 @@
+/* --- Start Grid Styles --- */
+
+
+
+
+
+
+
+
+/* --- End Grid Styles --- */
+
+/* DEMO: Define Colors and Default Styles */
+* {
+	box-sizing: border-box;
+}
+
+.grid {
+	color: white;
+	margin-bottom: 2rem;
+}
+
+.grid div {
+	background-color: cornflowerblue;
+	padding: 1rem;
+	text-align: center;
+}
+
+div:nth-child(1) {
+	background-color: teal;
+}
+
+div:nth-child(2) {
+	background-color: palevioletred;
+}
+
+div:nth-child(3) {
+	background-color: steelblue;
+}
+
+div:nth-child(4) {
+	background-color: coral;
+}
+
+div:nth-child(5) {
+	background-color: mediumseagreen;
+}
+
+div:nth-child(6) {
+	background-color: orchid;
+}
+
+div.grid {
+	background-color: #eee;
+}

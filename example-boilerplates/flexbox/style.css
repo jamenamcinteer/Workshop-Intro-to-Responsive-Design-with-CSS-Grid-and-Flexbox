@@ -1,0 +1,31 @@
+/* --- Start Flexbox Styles --- */
+
+
+
+
+
+
+
+
+/* --- End Flexbox Styles --- */
+
+/* DEMO: Define Colors and Default Styles */
+* {
+	box-sizing: border-box;
+}
+
+.flexbox {
+  background-color: #e0e0e0;
+  font-size: 2rem;
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 200px;
+}
+
+.flexbox > div {
+  background: #fff;
+  border: 2px solid teal;
+  border-radius: 100px;
+  margin: 5px;
+  padding: 20px;
+}
