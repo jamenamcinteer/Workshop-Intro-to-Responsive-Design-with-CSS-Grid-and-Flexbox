@@ -77,19 +77,19 @@
 
 .grid9 {
 	display: grid;
-	grid-template-areas: "apple banana blueberry"
-											 "kale kale blueberry"
-											 "cherry raspberry blueberry";
+	grid-template-areas: "blue orange teal"
+											 "salmon salmon teal"
+											 "green orchid teal";
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 100px 100px;
 	grid-gap: .3rem;											 
 }
 
 .grid9 div:nth-child(1) {
-	grid-area: blueberry;
+	grid-area: teal;
 }
 .grid9 div:nth-child(2) {
-	grid-area: kale;
+	grid-area: salmon;
 }
 
 
